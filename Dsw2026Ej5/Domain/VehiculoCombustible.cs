@@ -30,7 +30,7 @@ public class VehiculoCombustible : Vehiculo
     {
         double consumoBase = (kilometros) / kilometrosPorLitro;
         double total = consumoBase;
-        if (GetCapacidadCarga() <= 2020)
+        if (GetAnio() <= 2020)
         {
             double ciclosExtra = ((kilometros) / 15);
             total += ciclosExtra;
